@@ -1,0 +1,38 @@
+Arguments: 
+  /home/masterboy/.nvm/versions/node/v16.17.0/bin/node /home/masterboy/.yarn/bin/yarn.js add express
+
+PATH: 
+  /home/masterboy/.yarn/bin:/home/masterboy/.config/yarn/global/node_modules/.bin:/home/masterboy/.nvm/versions/node/v16.17.0/bin:/home/masterboy/.yarn/bin:/home/masterboy/.config/yarn/global/node_modules/.bin:/home/masterboy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+    "name": "yelp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
